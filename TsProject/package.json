@@ -1,0 +1,11 @@
+{
+  "name": "tsproject",
+  "version": "1.0.0",
+  "description": "ts project",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "postbuild": "node copyJsFile.js output ../Assets/TypeScript/Resources",
+    "build:auto": "tsc -w",
+    "postbuild:auto": "nodemon"
+  }
+}

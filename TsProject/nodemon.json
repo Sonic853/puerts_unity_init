@@ -1,0 +1,5 @@
+{
+    "watch": ["output"],
+    "ext": "js",
+    "exec": "node copyJsFile.js output ../Assets/TypeScript/Resources"
+}
