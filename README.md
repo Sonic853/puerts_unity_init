@@ -1,4 +1,4 @@
-# puerts_unity_init
+# Puerts Unity Init
 
 初始化只包含 puerts 的 Unity 项目。带有自动化编译 ts。
 
@@ -8,7 +8,7 @@
 
 ## 项目下的 puerts 文件夹不是最新？
 
-如 puerts 不是最新，只需将最新的 puerts 代码覆盖到 Assets 文件夹里即可（请自行手动补充 Plugins 插件）
+如 puerts 不是最新，只需将最新的 Puerts 文件夹替换 Assets 文件夹里的 Puerts 文件夹即可（请自行手动补充 Plugins 插件）
 
 ![Snipaste_2021-10-24_18-40-01](https://user-images.githubusercontent.com/8389962/138590354-4454cf47-d37c-49bf-bb66-1d8584bb1538.png)
 
