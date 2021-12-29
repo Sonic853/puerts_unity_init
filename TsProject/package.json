@@ -4,7 +4,7 @@
   "description": "ts project",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "postbuild": "node copyJsFile.js output ../Assets/TypeScript/Resources",
+    "postbuild": "node copyJsFile.js out ../Assets/TypeScript/Resources",
     "build:auto": "tsc -w",
     "postbuild:auto": "nodemon"
   }

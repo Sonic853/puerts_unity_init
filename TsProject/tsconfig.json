@@ -12,7 +12,7 @@
       "../Assets/Gen/Typing",
       "./node_modules/@types"
     ],
-    "rootDir": "Unity",
-    "outDir": "output"
+    "rootDir": "src",
+    "outDir": "out"
   }
 }
