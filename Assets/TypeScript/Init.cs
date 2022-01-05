@@ -70,7 +70,7 @@ namespace PuertsMethod
         {
             if (jsEnv == null)
             {
-                if (DevMode) jsEnv = new JsEnv(new DefaultLoader(UnityEngine.Application.dataPath + "/../TsProject/output"), 8282);
+                if (DevMode) jsEnv = new JsEnv(new DefaultLoader(UnityEngine.Application.dataPath + "/../TsProject/out"), 8282);
                 else jsEnv = new JsEnv();
             }
             string runCode = "const m = require('init'); m.init;";
